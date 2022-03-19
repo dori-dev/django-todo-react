@@ -78,12 +78,7 @@ python manage.py runserver
 
 ## Run FrontEnd
 
-open new terminal and run this command
-
-```
-cd ..
-cd frontend
-```
+open new terminal in `frontend` directory and run this command.
 
 ```
 npm start
