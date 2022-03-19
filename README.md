@@ -46,7 +46,7 @@ npm install
 ```
 
 
-## Migrate Models
+## Migrate Backend Models
 ```
 cd ..
 cd backend
@@ -71,7 +71,7 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 
-## Run Front End
+## Run FrontEnd
 ```
 cd ..
 cd frontend
@@ -83,10 +83,10 @@ npm install
 
 ## Open On Browser
 
-Home Page
-[127.0.0.1:8000](http://127.0.0.1:8000/)
+App Page
+[localhost:3000](http://localhost:3000/)
 
-Admin Page
+Django Admin Page
 [127.0.0.1:8000/admin](http://127.0.0.1:8000/admin)
 
 #
