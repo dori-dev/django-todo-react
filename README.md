@@ -72,12 +72,13 @@ python manage.py runserver
 ```
 
 ## Run Front End
+open new terminal and run this command
 ```
 cd ..
 cd frontend
 ```
 ```
-npm install
+npm start
 ```
 
 
