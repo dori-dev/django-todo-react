@@ -43,6 +43,7 @@ cd frontend
 ```
 ```
 npm install
+npm audit
 ```
 
 
