@@ -8,6 +8,7 @@ Create todo app with Django and React.
 
 - Django 4
 - React Js
+- Python 3
 
 #
 
@@ -31,7 +32,6 @@ pip install pipenv
 
 ```
 pipenv shell
-
 ```
 ```
 pipenv install
