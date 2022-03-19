@@ -1,5 +1,4 @@
 from django.shortcuts import render
-from html5lib import serialize
 from rest_framework import viewsets
 from .serializers import TodoSerializer
 from .models import Todo
