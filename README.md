@@ -24,7 +24,7 @@ git clone https://github.com/dori-dev/django-todo-react.git
 cd django-todo-react
 ```
 
-## Use Pipenv to Install Requirements
+## Install Backend Requirements
 
 ```
 pip install pipenv
