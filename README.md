@@ -33,15 +33,24 @@ pip install pipenv
 pipenv shell
 
 ```
-
-## Install Project Requirements
-
 ```
 pipenv install
 ```
 
-## Migrate Models
+## Install Frontend dependencies
+```
+cd frontend
+```
+```
+npm install
+```
 
+
+## Migrate Models
+```
+cd ..
+cd backend
+```
 ```
 python manage.py makemigrations todo
 ```
@@ -56,11 +65,21 @@ python manage.py migrate
 python manage.py createsuperuser
 ```
 
-## Run Codes
+## Run Django Server
 
 ```
 python manage.py runserver
 ```
+
+## Run Front End
+```
+cd ..
+cd frontend
+```
+```
+npm install
+```
+
 
 ## Open On Browser
 
