@@ -24,7 +24,7 @@ git clone https://github.com/dori-dev/django-todo-react.git
 cd django-todo-react
 ```
 
-## Use Pipenv
+## Install Backend Requirements
 
 ```
 pip install pipenv
@@ -33,24 +33,29 @@ pip install pipenv
 ```
 pipenv shell
 ```
+
 ```
 pipenv install
 ```
 
-## Install Frontend dependencies
+## Install Frontend Dependencies
+
 ```
 cd frontend
 ```
+
 ```
 npm install
+npm audit
 ```
 
+## Migrate Backend Models
 
-## Migrate Models
 ```
 cd ..
 cd backend
 ```
+
 ```
 python manage.py makemigrations todo
 ```
@@ -71,23 +76,25 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 
-## Run Front End
+## Run FrontEnd
+
 open new terminal and run this command
+
 ```
 cd ..
 cd frontend
 ```
+
 ```
 npm start
 ```
 
-
 ## Open On Browser
 
-Home Page
-[127.0.0.1:8000](http://127.0.0.1:8000/)
+App Page
+[localhost:3000](http://localhost:3000/)
 
-Admin Page
+Django Admin Page
 [127.0.0.1:8000/admin](http://127.0.0.1:8000/admin)
 
 #
